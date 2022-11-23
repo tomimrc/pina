@@ -9,22 +9,23 @@
     <link rel="stylesheet" href="../css/cssdeprueba.css">
 </head>
 <body class="contacto-body">
+    <div class="container">
     <!-- COMIENZA EL HEADER -->
     <header class="row header">
         <section class="top-nav">
             <div>
-                Pina Honesta Cocina
+                <a href="../../index.html" class="logo">Pina Honesta Cocina</a>    
             </div>
             <input id="menu-toggle" type="checkbox" />
             <label class='menu-button-container' for="menu-toggle">
             <div class='menu-button'></div>
             </label>
             <ul class="menu">
-                <li><a href="../../index.html">Inicio</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./productos.html">Productos</a></li>
-                <li><a href="./galeria.html">Galeria</a></li>
-                <li><a href="./contactanos.html">Contacto</a></li>
+                <li><a href="../../index.html"class="link">Inicio</a></li>
+                <li><a href="./nosotros.html"class="link">Nosotros</a></li>
+                <li><a href="./productos.html"class="link">Productos</a></li>
+                <li><a href="./galeria.html"class="link">Galeria</a></li>
+                <li><a href="./contactanos.html"class="link">Contacto</a></li>
             </ul>
             </section>
     </header>
@@ -32,6 +33,7 @@
 <main>
     <div class="div-form">
     <form action="contactanos.html" method="GET" class="formulario-contacto">
+        <div class="contenedor">
         <div class="div-formulario">
             <label for= "nombre">Nombre</label>
             <input class="input" type="text" name="nombre" id="nombre" placeholder="Tu Nombre..."/>
@@ -48,19 +50,29 @@
             <label for="telefono">Nro de teléfono</label>
             <input class="input" type="telefono" name="telefono" id="telefono" placeholder="Tu Nro de telefono..."/>
         </div>
+    
 
     <div class="div-formulario">
         <label  for="comentarios">Comentarios</label>
         <textarea  class="input" name="comentarios" id="comentarios" placeholder="Comentarios que desees dejarnos..." ></textarea>
+        
     </div>
     
 
         <div class=" div-formulario">
             <button type="submit" class="boton-form">Enviar</button>
         </div>
-
+    </div >
+        
+        <div class="mapa">
+            <h4 class="encontranos">Encontranos en</h4>
+            <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3346.423030865395!2d-68.79450308457898!3d-32.992620880907474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0d0ebdea1a89%3A0xc14288ed1907c204!2sIL%20Mercato%20Maip%C3%BA!5e0!3m2!1ses-419!2sar!4v1669179147794!5m2!1ses-419!2sar"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
 </form>
+
+
 </div>
+
 
     
 </main>
@@ -90,5 +102,6 @@
     </div>
 </footer>
     
+</div>
 </body>
 </html>

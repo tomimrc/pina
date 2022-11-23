@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pina&Co</title>
+    <title>Pina Honesta Cocina</title>
     <link rel="icon" type="image/x-icon" href="/img/logopina.jpg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./principal/css/cssdeprueba.css">
@@ -15,32 +15,63 @@
     <!-- COMIENZA EL HEADER -->
     <header class="row header">
         <section class="top-nav">
-            <div>
-                Pina Honesta Cocina
-            </div>
+          <div>
+            <a href="./index.html" class="logo">Pina Honesta Cocina</a>    
+        </div>
             <input id="menu-toggle" type="checkbox" />
             <label class='menu-button-container' for="menu-toggle">
             <div class='menu-button'></div>
             </label>
             <ul class="menu">
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./principal/html/nosotros.html">Nosotros</a></li>
-                <li><a href="./principal/html/productos.html">Productos</a></li>
-                <li><a href="./principal/html/galeria.html">Galeria</a></li>
-                <li><a href="./principal/html/contactanos.html">Contacto</a></li>
+                <li><a href="./index.html" class="link">Inicio</a></li>
+                <li><a href="./principal/html/nosotros.html" class="link">Nosotros</a></li>
+                <li><a href="./principal/html/productos.html" class="link">Productos</a></li>
+                <li><a href="./principal/html/galeria.html" class="link">Galeria</a></li>
+                <li><a href="./principal/html/contactanos.html" class="link">Contacto</a></li>
             </ul>
             </section>
     </header>
     <!-- TERMINA EL HEADER, EMPIEZA EL MAIN -->
         <main class="row main-index">
             <h1 class="col-12 h1-index t-center">Panaderia & Patisserie artesanal</h1>
-            <section class="col section-img">
+            <div class="carrusel col-12">
+            <div id="carouselExampleIndicators" class="carousel slide col-12 " data-bs-ride="true">
+                <div class="carousel-indicators botones">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner imagenes">
+                  <div class="carousel-item active">
+                    <img src="./pina/fotos en la cocina (2do dia)/valenflavia.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./pina/fotos en la cocina (2do dia)/manos.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./pina/fotos en la cocina (2do dia)/corazon.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <p class="p-carrusel t-center">Somos un equipo de personas que elaboramos todos los días panadería y pastelería artesanal, con harinas naturales y materia prima de primera calidad. Todo lo que hacemos en Pina, está hecho con nuestras propias manos.</p>
+            <p class="p-carrusel t-center">Somos un equipo de personas que elaboramos todos los dias pnaderia y pasteleria artesanal, con hartinas naturales y materia prima de primera calidad. Todo lo que hacemos en Pina, está hecho con nuestras propias manos.</p>
+            
+            <section class="col-12 section-img">
                 <iframe  width="400" height="" src="https://www.instagram.com/p/Ciqn-ybpmeW/embed" frameborder="0" class="col-lg-4 col-md-4 col-sm-12"></iframe>
                 <iframe  width="400" height="" src="https://www.instagram.com/p/CioNMF9p5Sq/embed" frameborder="0" class="col-lg-4 col-md-4 col-sm-12"></iframe>
                 <iframe  width="400" height="" src="https://www.instagram.com/p/CiaWWXzLYxl/embed" frameborder="0" class="col-lg-4 col-md-4 col-sm-12"></iframe>
             </section>
             
-            <p class="col-12 main__p t-center">Aca estamos creando, creciendo, siempre brindando amor y mucha mucha dedicación. Despues de risas, llantos, euforias y tristezas, el camino es duro pero no imposible!! Pina&Co es salud, amor, conciencia y bienestar.</p>
+            <p class="col-12 main__p t-center">Aca estamos creando, creciendo, siempre brindando amor y mucha mucha dedicación. Despues de risas, llantos, euforias y tristezas, el camino es duro pero no imposible!! Pina Honesta Cocina es salud, amor, conciencia y bienestar.</p>
             <h2 class="col-12 main__h2 t-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem perferendis cum animi dolorum! Eveniet, laudantium. 2</h2>
         </main>
         <!-- TERMINA EL MAIN, COMIENZA EL FOOTER -->
@@ -74,6 +105,7 @@
 
 
 
-    
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
