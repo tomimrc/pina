@@ -620,22 +620,6 @@ overflow-x: hidden;
 
 
 
-
-
-
-
-
-.carousel{
-    margin: auto;
-    width: 80%;
-}
-
-.carousel-inner{
-    margin: auto;
-    border-radius: 50px;
-}
-
-
 .card-container{
     gap: 10px;
     justify-content: center;
@@ -653,3 +637,4 @@ overflow-x: hidden;
 .btn-light{
     opacity: 0.9;
 }
+

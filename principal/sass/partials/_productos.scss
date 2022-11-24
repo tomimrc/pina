@@ -1,0 +1,22 @@
+/* PRODUCTOS MAIN ------------------------------------------------ */
+
+
+.card-container{
+    gap: 10px;
+    justify-content: center;
+    margin: 20px 0px;
+        .card-img-top{
+            padding: 5px;
+            border-radius: 10px;
+        }
+}
+
+.card-img-top{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+.btn-light{
+    opacity: 0.9;
+}
