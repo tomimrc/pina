@@ -363,6 +363,7 @@ iframe:hover {
 }
 .main .nosotros {
   color: white;
+  font-size: 1rem;
 }
 .main .center {
   text-align: center;
@@ -402,6 +403,7 @@ iframe:hover {
   visibility: hidden;
   opacity: 0;
   text-align: center;
+  font-size: 1.1rem;
   /* transition effect. not necessary */
   transition: opacity 0.3s, visibility 0.2s;
 }
@@ -432,6 +434,14 @@ iframe:hover {
   opacity: 0.9;
 }
 
+@media (max-width: 768px) {
+  .ensalada {
+    display: none;
+  }
+  .nachos {
+    display: none;
+  }
+}
 /* GALERIA MAIN ----------------------------------------------------------------*/
 .galeria-body {
   overflow-x: hidden;
@@ -453,6 +463,8 @@ iframe:hover {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 .image-item img {
@@ -465,6 +477,11 @@ iframe:hover {
 @media only screen and (min-width: 768px) {
   .image-gallery {
     flex-direction: row;
+  }
+}
+@media (max-width: 768px) {
+  #uno {
+    display: none;
   }
 }
 /* overlay styles */
